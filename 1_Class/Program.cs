@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _1_Class.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,8 @@ namespace _1_Class
             Property: sınıf içinde özellik atadığımız alanlardır. GET ve SET methodları sayesinde değerleri okunabilir ve değiştirilebilinir.
 
              */
+
+            Personel personel = new Personel();
         }
     }
 }
