@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Constructor.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,23 @@ namespace Constructor
             Metot olduğu için tabiki overloadlar oluşturulabilir.
              
              */
+
+            //parametresiz-default constructor
+
+            Araba araba = new Araba();
+            araba.Marka = "audi";
+            araba.MotorGucu = 600;
+            araba.Model = "i5";
+
+            //parametreli constructor
+            Araba araba1 = new Araba("BMW","i6");
+            araba1.MotorGucu = 9000;//daha sonra değişirebilirim
+            araba1.Model = "a3";
+
+            Araba araba2 = new Araba("Toyota", "yaris",105);
+            araba2.Marka = "opel";
+
+            Console.ReadLine();
         }
     }
 }
