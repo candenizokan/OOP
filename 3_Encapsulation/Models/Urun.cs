@@ -15,15 +15,15 @@ namespace _3_Encapsulation.Models
         public int Id
         {
             get { return _id; }//field'ın değerini yabi _id okuyup geri döndürüyor
-            set { _id = value; }//dışarıdan gelen value yi atıyorum _id'ya
+            set { _id = value; }//dışarıdan gelen value yi atıyorum _id'ya//// set methodunu kapatmak istersek hiç yazmamalı yada private set olarak kullanmalıyız. bu olduğunda propertynin yalnızca get(okumak için kullanırız) methodu kullanılabilir olur
         }
 
-        private int _ad;
+        private string _ad;
 
-        public int Ad
+        public string Ad
         {
             get { return _ad; }
-            set { _ad = value; }
+            set { _ad = value; }//private set { _ad = value; } bu şekilde yazsaydım hiç bir şey set edemezdim. seti hiç yazmamakla private koymak arasında fark yok.
         }
 
         private double _fiyat;
@@ -35,7 +35,7 @@ namespace _3_Encapsulation.Models
             {
                 if (value>0)
                 {
-                    _fiyat = value;//atanacak değer sıfırdan büyükse ata
+                    _fiyat = value*5;//atanacak değer sıfırdan büyükse ata
                 }
                 else
                 {

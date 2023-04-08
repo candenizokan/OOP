@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _3_Encapsulation.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,27 @@ namespace _3_Encapsulation
             *
             *propfull + tab tab tuşlarıyla encapsulation syntaxı oluşmuş olur
              */
+
+            Urun urun = new Urun();
+
+            urun.Id = 23;
+            urun.Ad = "Elma";
+
+            Urun urun1 = new Urun();
+            urun1.Id = 20;
+            urun1.Ad = "soğan";
+            urun1.Fiyat = -5;
+
+            Urun urun2 = new Urun();
+            urun2.Id = 21;
+            urun2.Ad = "soğan";
+            urun2.Fiyat = 30;
+
+            Console.WriteLine($"Urun =>{urun.Id} - {urun.Ad} - {urun.Fiyat}");
+            Console.WriteLine($"Urun =>{urun1.Id} - {urun1.Ad} - {urun1.Fiyat}");
+            Console.WriteLine($"Urun =>{urun2.Id} - {urun2.Ad} - {urun2.Fiyat}");
+
+            Console.ReadLine();
         }
     }
 }
