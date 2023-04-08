@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Models\BasePhone.cs" />
     <Compile Include="Models\MobilePhone.cs" />
+    <Compile Include="Models\SmartPhone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

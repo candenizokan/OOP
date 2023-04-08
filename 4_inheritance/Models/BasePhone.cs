@@ -53,7 +53,7 @@ namespace _4_inheritance.Models
 
         //VIRTUAL => virtual olarak işaretlenmiş methodalar kalıtım verilen yerden istenirse aynen kullanılabilir. istenirse ezilip (override edilip) farklı bir şekilde kullanılmaya devam edilir. Ezmek zorunlu değil opsiyoneldir. // virtual keywordü hiç kullanmasaydık tanımlandığı gibi kullanmak zorundaydık.
 
-        public string ConnectionStatus()
+        public virtual string ConnectionStatus()
         {
             return "Kablolu bağlantı mevcut.";
         }

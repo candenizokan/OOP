@@ -42,5 +42,23 @@ namespace _4_inheritance.Models
             //Brand = brand;
             //ConnectionType = connectionType;
         }
+
+        public string TakePhote()
+        {
+            if (HasCamera)
+            {
+                return "Fotoğraf çekiliyor...";
+            }
+            else
+            {
+                return "Fotoğraf çekilemez";
+            }
+        }
+
+        //kalıtım alınan sınıfta virtual olarak tanımlanan metodu ezerek(override) içini istediğimiz gibi işlemiş olduk
+        public override string ConnectionStatus()
+        {
+            return "Mobil bağlantı mevcut";
+        }
     }
 }
