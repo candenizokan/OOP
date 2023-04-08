@@ -34,5 +34,10 @@ namespace _4_inheritance.Models
                 return "arama gerçekleştirilemiyor";
             }
         }
+
+        public override string ConnectionStatus()
+        {
+            return  "Mobil bağlantı yok";  
+        }
     }
 }
