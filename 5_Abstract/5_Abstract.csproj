@@ -46,7 +46,7 @@
     <Compile Include="Models\Davul.cs" />
     <Compile Include="Models\Gitar.cs" />
     <Compile Include="Models\MuzikAleti.cs" />
-    <Compile Include="Models\Muzisye.cs" />
+    <Compile Include="Models\Muzisyen.cs" />
     <Compile Include="Models\YanFlut.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
