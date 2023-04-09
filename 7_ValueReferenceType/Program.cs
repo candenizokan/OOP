@@ -52,6 +52,21 @@ namespace _7_ValueReferenceType
         }
         static void Main(string[] args)
         {
+            //value typler kopyalanabilir
+            Student student = new Student();
+            student.FirstName = "Efe";
+            student.LastName = "Çalışkan";
+
+            Student student1 = student;
+            student1.FirstName = "Ayşe";
+
+            Console.WriteLine($" Student : {student.FirstName} - {student.LastName}");
+            Console.WriteLine($" Student : {student1.FirstName} - {student1.LastName}");
+
+            Console.ReadLine();
+
+
+
             /*
              
              ASP.Net core framework mantığı gereği uygulamada bazı nesneler RAM'in STACK kısmında bazı nesneler RAM'in  HEAP kısmında tutulur
