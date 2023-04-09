@@ -24,5 +24,7 @@ namespace _5_Abstract.Models
 
         public MuzikAleti EnFavoriMuzikAleti { get; set; }
         public List<MuzikAleti> CalabildigiMuzikAletleri { get; set; }//sınıf içinde list propertysi varsa bunu başlangçta ayağa kaldırmam lazım daha bu nesne ayağa kalkarken nedir ctorda bunu ayağa kaldırıcam
+        //koleksiyon varsa mutlaka ctorda sepeti oluştur bırak o yapsın. çağırdığın yerde sen yapma
+       // ne kadar koleksiyon yapısı varsa ctorda ayağa kaldırmam daha mantıklı
     }
 }
