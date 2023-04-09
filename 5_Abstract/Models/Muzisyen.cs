@@ -8,6 +8,10 @@ namespace _5_Abstract.Models
 {
     internal class Muzisyen
     {
+        public Muzisyen()
+        {
+            CalabildigiMuzikAletleri = new List<MuzikAleti>();//eleman eklenebilecek pozisyona getiriyorum
+        }
         public string Ad { get; set; }
         public string Soyad { get; set; }
 

@@ -36,7 +36,7 @@ namespace _5_Abstract
             muzisyen.EnFavoriMuzikAleti = yanFlut;
             muzisyen.EnFavoriMuzikAleti = davul;//en son k,m, okuduysa en favori müzik aleti o olacak
 
-            muzisyen.CalabildigiMuzikAletleri = new List<MuzikAleti>();
+            //muzisyen.CalabildigiMuzikAletleri = new List<MuzikAleti>(); artık bu. null demek sepet yok demek. count sıfır demek sepertin var içinde aletin yok demek
 
             muzisyen.CalabildigiMuzikAletleri.Add(gitar);
             muzisyen.CalabildigiMuzikAletleri.Add(yanFlut);
