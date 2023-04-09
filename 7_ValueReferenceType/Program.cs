@@ -61,7 +61,25 @@ namespace _7_ValueReferenceType
             student1.FirstName = "Ayşe";
 
             Console.WriteLine($" Student : {student.FirstName} - {student.LastName}");
-            Console.WriteLine($" Student : {student1.FirstName} - {student1.LastName}");
+            Console.WriteLine($" Student1 : {student1.FirstName} - {student1.LastName}");
+
+            int a = 5;
+            int b = a;
+            b = b + 10;
+            Console.WriteLine(a+"***"+b);
+
+
+            Ogrenci ogrenci = new Ogrenci();
+            ogrenci.Ad = "Ali";
+            ogrenci.Soyad = "Yilmaz";
+            
+            Ogrenci ogrenci1 = ogrenci;
+            ogrenci1.Ad = "Elif";
+
+            Console.WriteLine($"ogrenci : {ogrenci.Ad} - {ogrenci.Soyad}");
+            Console.WriteLine($"ogrenci1 : {ogrenci1.Ad} - {ogrenci1.Soyad}");
+
+
 
             Console.ReadLine();
 
