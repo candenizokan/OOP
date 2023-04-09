@@ -23,6 +23,17 @@ namespace _8_Static
              * 
              * Static sayesinde instancetan bağımsız olarak sınıfa ulaşılır.
              */
+
+            double karekok = Math.Sqrt(16);
+
+            Kutuphane.Hesapla();
+
+            Console.WriteLine(Kutuphane.SurtunmeKatsayisi + "**" + Kutuphane.Hesapla() + "**" + Kutuphane.MomentSabiti);
+
+            string metin = "BİLgE tekNOLOji";
+            Console.WriteLine(Yardimci.Duzenle(metin) + "***" + metin.Duzenle());// metin.Duzenle()önce değikeni çağırdım sonra duzenleyi çağırdım. bunu kullanabilmemin sebebi Duzenlede this keyword ü.
+
+            Console.ReadLine();
         }
     }
 }
