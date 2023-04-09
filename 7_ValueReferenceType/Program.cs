@@ -8,6 +8,26 @@ namespace _7_ValueReferenceType
 {
     internal class Program
     {
+        class Ogrenci //reference type
+        {
+            private string _ad;
+
+            public string Ad
+            {
+                get { return _ad; }
+                set { _ad = value; }
+            }
+
+            private string _soyAd;
+
+            public string Soyad
+            {
+                get { return _soyAd; }
+                set { _soyAd = value; }
+            }
+
+
+        }
         static void Main(string[] args)
         {
             /*
