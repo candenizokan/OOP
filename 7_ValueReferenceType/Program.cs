@@ -26,6 +26,28 @@ namespace _7_ValueReferenceType
                 set { _soyAd = value; }
             }
 
+        }
+
+        struct Student  //value type
+        {
+            //STRUCT => en basit tanımıyla sınıfların değer tipli durumlarıdır. Sınıflardan farklı başka bir structtan yada sınıftan kalıtım almazlar.(interface'den implementasyon yapar).
+            //sınıf ile struct arasında seçim yapmak zorunda kalındığında büyük yapılar için sınıfı küçükler için structı tercih edebiliriz.
+            private string _firstName;
+
+            public string FirstName
+            {
+                get { return _firstName; }
+                set { _firstName = value; }
+            }
+
+            private string _lastName;
+
+            public string LastName
+            {
+                get { return _lastName; }
+                set { _lastName = value; }
+            }
+
 
         }
         static void Main(string[] args)
