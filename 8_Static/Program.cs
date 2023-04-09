@@ -17,7 +17,7 @@ namespace _8_Static
              * 
              * Static bir sınıf başka bir sınıftan kalıtım alamaz ! ANCAK .NET mantığı gereği tüm sınıflar Sysetem.Objectten kalıtım alır ve bu sınıfın istisnasıdır.
              * 
-             * Static sınıflara örnek olarak MATH sınıfı verilebilir çünkü static işaretli olduğundan o sınıftan bir instance(örnek/nesne) almadan sınıf içindeki metodlara erişebilir/kullanılabilir hale geldij.
+             * Static sınıflara örnek olarak MATH sınıfı verilebilir çünkü static işaretli olduğundan o sınıftan bir instance(örnek/nesne) almadan sınıf içindeki metodlara erişebilir/kullanılabilir hale geldik.
              * 
              * Her sınıf static olarak işaretlenmemelidir çünkü RAM de stack yada heap haricinde kendilerine ait bir alanları vardır sistem düzenini bozmamak için bu alan şişirilmemelidir. Static işaretliler sabit bir şekilde hep orada yaşar.
              * 
