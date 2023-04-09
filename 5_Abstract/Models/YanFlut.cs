@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _5_Abstract.Models
 {
-    internal class Gitar : MuzikAleti
+    internal class YanFlut : MuzikAleti
     {
         public override string Cal()
         {
-            return "Gitar Sesi.";
+            return "Flut Sesi.";
         }
     }
 }
