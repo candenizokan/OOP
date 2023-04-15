@@ -34,6 +34,20 @@ namespace _10_Enum
             personel.kanGrup = KanGrup.O;
             personel.DepartmanBilgisi = Departman.Yazilim;
 
+            switch (personel.DepartmanBilgisi)
+            {
+                case Departman.Yazilim:
+                case Departman.Muhasebe:
+                    Console.WriteLine("Hoşgeldiniz");
+                    break;
+                case Departman.İK:
+                    Console.WriteLine("Merhaba");
+                    break;
+                default:
+                    Console.WriteLine("sen kimsin");
+                    break;
+            }
+
             foreach (var item in Enum.GetNames(typeof(Departman)))
             {
                 Console.WriteLine(item + " - " +(int)Enum.Parse(typeof(Departman),item));
