@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Defans.cs" />
     <Compile Include="IFutbolcu.cs" />
     <Compile Include="IPenalti.cs" />
     <Compile Include="Kaleci.cs" />

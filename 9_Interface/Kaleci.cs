@@ -6,21 +6,13 @@ using System.Threading.Tasks;
 
 namespace _9_Interface
 {
-    internal class Kaleci : IFutbolcu,IPenalti
+    internal class Kaleci : IFutbolcu
     {
         public string Ad { get ; set; }
         public string Soyad { get ; set ; }
         public bool MilliTakimOyuncusuMu { get; set ; }
 
-        public string GolSevinci()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string PenaltiKurtar()
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public void SutCek()
         {
