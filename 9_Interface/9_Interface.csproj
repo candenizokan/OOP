@@ -48,6 +48,8 @@
     <Compile Include="IPenalti.cs" />
     <Compile Include="Kaleci.cs" />
     <Compile Include="Models\BaseSporcu.cs" />
+    <Compile Include="Models\IFutbol.cs" />
+    <Compile Include="Models\ISpor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
