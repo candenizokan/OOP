@@ -32,7 +32,7 @@ namespace _13_Event
                 _hiz = value;
                 if (value>120)
                 {
-                    HizAsimi();
+                    HizAsimi();//değer 120 den büyükse bizim için bu bir olay ve eventHandler mekanizması bunu yakalamalı ve delege iletmeli
                 }
             }
         }
