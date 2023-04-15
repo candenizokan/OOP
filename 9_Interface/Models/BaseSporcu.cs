@@ -10,5 +10,6 @@ namespace _9_Interface.Models
     {
         public string Ad { get; set; }
         public string Soyad { get; set; }
+        public int FormaNumarasi { get; set; }
     }
 }
