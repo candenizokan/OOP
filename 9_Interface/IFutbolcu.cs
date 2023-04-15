@@ -8,6 +8,7 @@ namespace _9_Interface
 {
     internal interface IFutbolcu
     {
+        //interfacede property oluştururken accsess modifier oluşturmuyorum
         string Ad { get; set; }
         string Soyad { get; set; }
 
