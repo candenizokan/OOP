@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _9_Interface
 {
-    internal interface Kaleci
+    internal class Kaleci
     {
     }
 }

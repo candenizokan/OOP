@@ -14,6 +14,6 @@ namespace _9_Interface
         bool MilliTakimOyuncusuMu { get; set; }
 
         void SutCek();
-        void SutTakim();
+        void TopKurtar();
     }
 }
