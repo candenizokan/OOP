@@ -8,5 +8,9 @@ namespace _10_Enum
 {
     internal enum KanGrup
     {
+        A,
+        B,
+        AB,
+        O
     }
 }
