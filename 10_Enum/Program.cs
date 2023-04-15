@@ -26,6 +26,20 @@ namespace _10_Enum
             *  Enumlar namespace ve sınıf arasında tanımlanabilir ancak ayrı bir klasör altında enumları toplamak daha mantıklı olacaktır.
              
              */
+
+            Personel personel = new Personel();
+            personel.Ad = "Okan";
+            personel.Soyad = "Candeniz";
+
+            personel.kanGrup = KanGrup.O;
+            personel.DepartmanBilgisi = Departman.Yazilim;
+
+            foreach (var item in Enum.GetNames(typeof(Departman)))
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadKey();
         }
     }
 }
