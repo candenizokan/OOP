@@ -24,6 +24,9 @@ namespace _13_Event
             * 
 
              */
+
+            Araba araba = new Araba("BMW", 78);
+            araba.HizAsimi += new HizAsimiEventHandler();
         }
     }
 }
