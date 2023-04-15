@@ -8,6 +8,7 @@ namespace _9_Interface.Models
 {
     internal class Sporcu : BaseSporcu, ISpor, IFutbol
     {
+
         public string GolSevinci()
         {
             throw new NotImplementedException();
