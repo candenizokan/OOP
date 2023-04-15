@@ -8,6 +8,7 @@ namespace _13_Event
 {
     internal class Araba
     {
+        public delegate void HizAsimiEventHandler();
         public Araba(string marka,int hiz)
         {
             Marka = marka;
