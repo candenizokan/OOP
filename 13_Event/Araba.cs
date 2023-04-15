@@ -22,6 +22,8 @@ namespace _13_Event
             set { _marka = value; }
         }
 
+        public event HizAsimiEventHandler HizAsimi;
+
         private int _hiz;
 
         public int Hiz
