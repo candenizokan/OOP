@@ -27,7 +27,14 @@ namespace _13_Event
         public int Hiz
         {
             get { return _hiz; }
-            set { _hiz = value; }
+            set 
+            { 
+                _hiz = value;
+                if (value>120)
+                {
+                    HizAsimi();
+                }
+            }
         }
 
 
