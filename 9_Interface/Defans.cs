@@ -14,12 +14,12 @@ namespace _9_Interface
 
         public string GolSevinci()
         {
-            throw new NotImplementedException();
+            return "Gooolll";
         }
 
         public string PenaltiKurtar()
         {
-            throw new NotImplementedException();
+            return "Penaltı kurtar";
         }
 
         public void SutCek()

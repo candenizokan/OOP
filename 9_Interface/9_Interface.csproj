@@ -50,6 +50,7 @@
     <Compile Include="Models\BaseSporcu.cs" />
     <Compile Include="Models\IFutbol.cs" />
     <Compile Include="Models\ISpor.cs" />
+    <Compile Include="Models\Sporcu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
