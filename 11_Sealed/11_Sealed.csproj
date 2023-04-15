@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Models\BaseBook.cs" />
     <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\LastBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
