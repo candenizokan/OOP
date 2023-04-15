@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace _13_Event
 {
+    public delegate void HizAsimiEventHandler();
     internal class Araba
     {
-        public delegate void HizAsimiEventHandler();
+       
         public Araba(string marka,int hiz)
         {
             Marka = marka;
