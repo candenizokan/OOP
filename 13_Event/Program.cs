@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _13_Event;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,21 @@ namespace _13_Event
              */
 
             Araba araba = new Araba("BMW", 78);
-            araba.HizAsimi += new HizAsimiEventHandler();
+
+            araba.HizAsimi += new Araba.HizAsimiEventHandler(HizLimit);
+
+            void HizLimit()
+            {
+                Console.WriteLine("Hız limitini aştınız");
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                araba.Hiz += 10;
+                Console.WriteLine("arabanın şu anki hızı: "+araba.Hiz);
+            }
+
+            Console.ReadLine();
         }
     }
 }
