@@ -36,7 +36,7 @@ namespace _10_Enum
 
             foreach (var item in Enum.GetNames(typeof(Departman)))
             {
-                Console.WriteLine(item + " - " +Enum.Parse(typeof(Departman),item));
+                Console.WriteLine(item + " - " +(int)Enum.Parse(typeof(Departman),item));
             }
 
             Console.ReadKey();
