@@ -8,9 +8,9 @@ namespace _9_Interface
 {
     internal class Kaleci : IFutbolcu
     {
-        public string Ad { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Soyad { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool MilliTakimOyuncusuMu { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Ad { get ; set; }
+        public string Soyad { get ; set ; }
+        public bool MilliTakimOyuncusuMu { get; set ; }
 
         public void SutCek()
         {
