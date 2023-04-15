@@ -8,5 +8,7 @@ namespace _9_Interface.Models
 {
     internal abstract class BaseSporcu
     {
+        public string Ad { get; set; }
+        public string Soyad { get; set; }
     }
 }

@@ -8,5 +8,7 @@ namespace _9_Interface.Models
 {
     internal interface ISpor
     {
+        string GolSevinci();
+
     }
 }
