@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace _9_Interface.Models
 {
-    internal class Sporcu
+    internal class Sporcu : BaseSporcu, ISpor, IFutbol
     {
+        public string GolSevinci()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string PenaltiKurtar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SutCek()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TopKurtar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
