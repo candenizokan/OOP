@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _9_Interface.Models
 {
-    internal class ISpor
+    internal interface ISpor
     {
     }
 }
