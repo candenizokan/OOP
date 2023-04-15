@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _9_Interface.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,18 @@ namespace _9_Interface
             * NOT =Z Abstract sınıfın içindeki abstract metod ile interface içindeki metodların gövdeleri yoktur çünkü gittikleri yerde açıklanacaktır.. multiinheritance da bir sınıf yalnızca! bir sınıftan kalıtım alabildiğinde ikisininde varlığı ayrı ayrı önemlidir. Tek bir sınıf bizim için yeterli olmadığında interfacelerden destek alabiliriz.
             
              */
+
+            Sporcu sporcu = new Sporcu();
+
+            sporcu.Ad = "Okan";
+            sporcu.Soyad = "Candeniz";
+            sporcu.FormaNumarasi = 7;
+
+            Console.WriteLine(sporcu.GolSevinci());
+
+            Console.ReadLine();
+
+            
         }
     }
 }

@@ -11,7 +11,7 @@ namespace _9_Interface.Models
 
         public string GolSevinci()
         {
-            throw new NotImplementedException();
+            return "harika";
         }
 
         public string PenaltiKurtar()
