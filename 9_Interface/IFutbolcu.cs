@@ -8,5 +8,12 @@ namespace _9_Interface
 {
     internal interface IFutbolcu
     {
+        string Ad { get; set; }
+        string Soyad { get; set; }
+
+        bool MilliTakimOyuncusuMu { get; set; }
+
+        void SutCek();
+        void SutTakim();
     }
 }
